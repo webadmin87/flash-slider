@@ -1,4 +1,7 @@
 jQuery плагин flashSlider.
+--------------------------
+
+Отображает в UI dialog слайдер флеш объектов.
 
 Пример использования:
 
@@ -10,11 +13,11 @@ $('.panogallery a').flashSlider({dialog: "#pano-dialog"});
 
 Возможные свойства объекта параметров:
 
-* dialog селектор виджета UI Dialog (обязательный параметр)
-* width ширина flash контейнера
-* height: высота flash контейнера
-* version версия плеера
-* flashBlId идентификатор блока для вставки flash
-* setTitle устанавливать ли заголовок из атрибута title ссылки
-* fromText текст между текищим номером слайда и общим количеством
-* useCarousel использовать ли карусель
+* dialog string селектор виджета UI Dialog (обязательный параметр)
+* width int ширина flash контейнера
+* height int высота flash контейнера
+* version string версия плеера
+* flashBlId string идентификатор блока для вставки flash
+* setTitle bool устанавливать ли заголовок из атрибута title ссылки
+* fromText string текст между текищим номером слайда и общим количеством
+* useCarousel bool использовать ли карусель

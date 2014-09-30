@@ -1,0 +1,27 @@
+{
+  "name": "flash-slider",
+  "main": "flash-slider.js",
+  "version": "1.0.0",
+  "authors": [
+    "Anton <webadmin87@gmail.com>"
+  ],
+  "description": "flash slider",
+  "keywords": [
+    "flash",
+    "slider"
+  ],
+  "dependencies": {
+    "swfobject": "2.2",
+    "jcarousel": "0.3.1",
+    "jquery-ui": ">=1.11.*"
+
+  },
+  "license": "BSD",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

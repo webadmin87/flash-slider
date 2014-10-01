@@ -12,7 +12,7 @@
  * setTitle устанавливать ли заголовок из атрибута title ссылки
  * fromText текст между текищим номером слайда и общим количеством
  * useCarousel использовать ли карусель
- *
+ * carouselWrapperClass дополнительный класс обертки карусели
  * Пример использования $('.panogallery a').flashSlider({dialog: "#pano-dialog"});
  */
 (function($){
@@ -74,7 +74,6 @@
 			carouselActive: 'jcarousel-item-active'
 		}
 
-
 	}
 
 	/**
@@ -116,6 +115,9 @@
 				var carouselWrapper = $("<div></div>");
 
 				carouselWrapper.addClass(this.classMap.carouselWrapper);
+
+				if(this.params.carouselWrapperClass)
+					carouselWrapper.addClass(this.params.carouselWrapperClass);
 
 				uiContent.append(carouselWrapper);
 

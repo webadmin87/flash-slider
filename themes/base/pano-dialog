@@ -1,0 +1,81 @@
+.pano-dialog {
+    border: none;
+    border-radius: 0;
+    background: #fff;
+    background: rgba(255, 255, 255, 0.9);
+    box-shadow: -2px -2px 4px #777777;
+}
+.pano-dialog .ui-dialog-titlebar {
+    padding-bottom: 0;
+    background: none;
+    border: none;
+    border-radius: 0;
+    font-size: 19px;
+    color: #777777;
+    font-weight: normal;
+    font-family: Arial, sans-serif;
+}
+.pano-dialog .ui-icon {
+    width: 22px;
+    height: 22px;
+}
+.pano-dialog .ui-dialog-titlebar-close {
+    width: 24px;
+    height: 24px;
+}
+.pano-dialog .ui-icon-closethick {
+    background: url('images/pano-close.png') no-repeat center center;
+}
+.pano-dialog .pano-flash-content {
+    background: url('images/ajax-loader.gif') no-repeat center center;
+    position: relative;
+}
+.pano-dialog .pano-control-prev,
+.pano-dialog .pano-control-next {
+    width: 39px;
+    height: 58px;
+    position: absolute;
+    top: 50%;
+    margin-top: -29px;
+    z-index: 10;
+    cursor: hand;
+    cursor: pointer;
+}
+.pano-dialog .pano-control-prev {
+    background: url('images/pano-prev.png');
+    left: 20px;
+}
+.pano-dialog .pano-control-next {
+    background: url('images/pano-next.png');
+    right: 20px;
+}
+.pano-dialog .pano-control-disabled {
+    display: none;
+}
+.pano-dialog .pano-counters {
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+    font-size: 19px;
+    line-height: 36px;
+}
+.pano-dialog .pano-counters span {
+    color: #fff;
+    margin: 0 5px;
+}
+.pano-dialog .pano-counters .pano-counters-all,
+.pano-dialog .pano-counters .pano-counters-current {
+    width: 32px;
+    height: 32px;
+    line-height: 32px;
+    color: #000;
+    border: 2px solid #ffffff;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.6);
+}
+.pano-dialog .pano-counters .pano-counters-current {
+    background: #e40000;
+    color: #fff;
+}

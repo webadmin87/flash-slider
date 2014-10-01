@@ -21,3 +21,4 @@ $('.panogallery a').flashSlider({dialog: "#pano-dialog"});
 * setTitle bool устанавливать ли заголовок из атрибута title ссылки
 * fromText string текст между текищим номером слайда и общим количеством
 * useCarousel bool использовать ли карусель
+* carouselWrapperClass string кополнительный класс обертки карусели

@@ -1,0 +1,98 @@
+.pano-dialog {
+    /** Carousel **/
+
+    /** Carousel Controls **/
+
+    /** Carousel Pagination **/
+
+}
+.pano-dialog .jcarousel-wrapper {
+    margin: 20px auto;
+    position: relative;
+    padding: 0 45px;
+}
+.pano-dialog .jcarousel-wrapper .photo-credits {
+    position: absolute;
+    right: 15px;
+    bottom: 0;
+    font-size: 13px;
+    color: #fff;
+    text-shadow: 0 0 1px rgba(0, 0, 0, 0.85);
+    opacity: .66;
+}
+.pano-dialog .jcarousel-wrapper .photo-credits a {
+    color: #fff;
+}
+.pano-dialog .jcarousel {
+    position: relative;
+    overflow: hidden;
+}
+.pano-dialog .jcarousel ul {
+    width: 20000em;
+    position: relative;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.pano-dialog .jcarousel li {
+    float: left;
+    margin: 0 5px;
+}
+.pano-dialog .jcarousel li img {
+    border: 1px solid #dddddd;
+    padding: 5px;
+    border-radius: 3px;
+}
+.pano-dialog .jcarousel-item-active img {
+    background: #cccccc;
+}
+.pano-dialog .jcarousel-control-prev,
+.pano-dialog .jcarousel-control-next {
+    position: absolute;
+    top: 50%;
+    width: 40px;
+    height: 60px;
+    margin-top: -30px;
+}
+.pano-dialog .jcarousel-control-prev {
+    left: 0px;
+    background: url('images/carousel/carousel-prev.png') no-repeat center center;
+}
+.pano-dialog .jcarousel-control-next {
+    right: 0px;
+    background: url('images/carousel/carousel-next.png') no-repeat center center;
+}
+.pano-dialog .jcarousel-control-prev:hover span,
+.pano-dialog .jcarousel-control-next:hover span {
+    display: block;
+}
+.pano-dialog .jcarousel-control-prev.inactive,
+.pano-dialog .jcarousel-control-next.inactive {
+    opacity: .5;
+    cursor: default;
+}
+.pano-dialog .jcarousel-pagination {
+    position: absolute;
+    bottom: 0;
+    left: 15px;
+}
+.pano-dialog .jcarousel-pagination a {
+    text-decoration: none;
+    display: inline-block;
+    font-size: 11px;
+    line-height: 14px;
+    min-width: 14px;
+    background: #fff;
+    color: #4E443C;
+    border-radius: 14px;
+    padding: 3px;
+    text-align: center;
+    margin-right: 2px;
+    opacity: .75;
+}
+.pano-dialog .jcarousel-pagination a.active {
+    background: #4E443C;
+    color: #fff;
+    opacity: 1;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.75);
+}
